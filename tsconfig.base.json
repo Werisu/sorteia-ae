@@ -15,6 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@sorteia-ae/home": ["modules/feature/home/src/index.ts"],
       "@sorteia-ae/number-data-access": [
         "modules/data-access/number/src/index.ts"
       ]
