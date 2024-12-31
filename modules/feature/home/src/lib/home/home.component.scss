@@ -1,0 +1,50 @@
+// 4. component/number-selector.component.scss
+.number-grid {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+button {
+  width: 40px;
+  height: 40px;
+  border: none;
+  background-color: #f0f0f0;
+  cursor: pointer;
+  transition: background-color 0.3s;
+
+  &.selected {
+    background-color: #4caf50;
+    color: white;
+  }
+
+  &:hover {
+    background-color: #d9d9d9;
+  }
+}
+
+.actions {
+  margin-bottom: 20px;
+
+  button {
+    margin-right: 10px;
+    padding: 10px 20px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    width: auto;
+
+    &:hover {
+      background-color: #0056b3;
+    }
+  }
+}
+
+.selected-numbers {
+  font-size: 16px;
+}

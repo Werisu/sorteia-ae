@@ -1,1 +1,1 @@
-export * from './lib/number-data-access/number-data-access.component';
+export * from './lib/number-selector/number-selector.service';
